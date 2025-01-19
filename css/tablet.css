@@ -1,0 +1,85 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbas img {
+    display: none;
+  }
+  .jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 50px auto;
+    /* margin: 0 50px; */
+  }
+  .box1-3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .box1-6 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .box1-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .box1-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .class8 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13%;
+  }
+  .advance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .inline {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 80%;
+  }
+
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .grid3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid1 img {
+    width: 100%;
+  }
+  .grid2 img {
+    width: 100%;
+  }
+  .grid3 img {
+    width: 50%;
+  }
+  .border1 {
+    width: 100%;
+    padding-left: 5px;
+  }
+  .border2 {
+    padding-left: 35px;
+    width: 100%;
+  }
+  .border3 {
+    width: 100%;
+    padding-left: 5px;
+  }
+}

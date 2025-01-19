@@ -1,0 +1,364 @@
+* {
+  font-family: sans-serif;
+}
+ul li {
+  list-style: none;
+}
+
+/* phần banner */
+.banner-img {
+  background-image: url(./img/banner.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  filter: brightness(50%);
+}
+.banner1 {
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  text-align: center;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+/* Phần navbar */
+.navbas {
+  display: flex;
+
+  gap: 50px;
+  justify-content: center;
+
+  height: 100px;
+  margin-top: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.navbas a {
+  text-decoration: none;
+
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+}
+.navbas img {
+  border: 5px solid #f7f7f7;
+  width: 170px;
+  height: 170px;
+  border-radius: 80%;
+  position: relative;
+  top: -50%;
+}
+.icon-user,
+.icon-star-1,
+.icon-mail-alt,
+.icon-doc-text-inv {
+  color: blue;
+}
+
+/* phần thông tin cá nhân */
+.containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+
+  width: 90%;
+  margin: 0 auto;
+}
+.box1 {
+  padding: 10% 10%;
+
+  background-color: #e7f2f8;
+  font-size: 15px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  line-height: 2;
+}
+.box2 {
+  padding: 10% 10%;
+  background-color: #dff1fa;
+  font-size: 15px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  line-height: 2;
+}
+.hidden {
+  display: none;
+  padding: 0;
+}
+
+.icons {
+  color: blue;
+}
+/* phần thông tin nghề nghiệp */
+.jobs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 30px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.class2 {
+  grid-column: 1/-1;
+}
+.now {
+  background-color: #0abde3;
+  padding: 4px 8px;
+  color: #dff1fa;
+  border-radius: 20px;
+  text-align: center;
+}
+.list-kn {
+  list-style: 2;
+  padding: 0 10%;
+}
+.class4 {
+  grid-column: 1/-1;
+}
+
+.class6 {
+  grid-column: 1/-1;
+}
+.class-box {
+  grid-column: 1/-1;
+}
+.class8 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+
+  justify-items: baseline;
+  padding-left: 10%;
+}
+.class8 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  text-align: center;
+}
+.class10 {
+  grid-column: 1/-1;
+}
+.class10 span {
+  display: inline-block;
+  background-color: #199cdb;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.class10 h4 {
+  margin-bottom: 2px;
+}
+
+.class12 span {
+  display: inline-block;
+  background-color: #199cdb;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.class12 h4 {
+  margin-bottom: 2px;
+}
+.box1-1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-top: 10px;
+
+  border: 1px solid #c1b8b8;
+}
+.box1-2 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-top: 10px;
+  align-content: baseline;
+
+  border: 1px solid #c1b8b8;
+}
+
+.box1-3 {
+  border: 1px solid #c1b8b8;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-content: baseline;
+  padding-top: 10px;
+}
+.box1-4 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-content: baseline;
+  padding-top: 10px;
+  border: 1px solid #c1b8b8;
+}
+
+.class12 {
+  grid-column: 1/-1;
+}
+.box1-5 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-content: baseline;
+  padding-top: 10px;
+
+  border: 1px solid #c1b8b8;
+}
+.box1-6 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-content: baseline;
+  border: 1px solid #c1b8b8;
+  padding-top: 10px;
+}
+
+/* Phần chứng chỉ - giải thưởng */
+.grid1 {
+  display: flex;
+
+  gap: 20px;
+}
+.grid1 img {
+  width: 50%;
+}
+.border1 {
+  width: 50%;
+}
+.grid2 {
+  display: flex;
+
+  gap: 20px;
+
+  border-left: 1px solid #d6c08d;
+}
+.grid2 img {
+  width: 50%;
+  padding-left: 30px;
+}
+.border2 {
+  width: 50%;
+}
+.grid3 {
+  display: flex;
+  gap: 20px;
+
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  padding-top: 30px;
+  border-top: 1px solid #d6c08d;
+}
+
+.grid3 img {
+  width: 24%;
+}
+.border3 {
+  width: 25%;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-content: center;
+
+  gap: 30px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.advance {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+.du-an {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+}
+.block1 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  justify-items: start;
+
+  border: 1px solid gray;
+  padding-left: 10px;
+  line-height: 2;
+}
+
+.year {
+  display: inline-block;
+  background-color: blue;
+  padding: 10px 15px;
+  border-radius: 30%;
+  color: #dff1fa;
+}
+.inline {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 20px;
+}
+.the-end a {
+  text-decoration: none;
+}
+.the-end {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  margin: 60px auto;
+  width: 80%;
+}
+.icon {
+  font-size: 40px;
+  color: #199cdb;
+}
+/* Ẩn thông tin cá nhân */
+.class2,
+.class4,
+.class6,
+.class-box,
+.class10,
+.class12 {
+  display: none;
+}
+
+.jobs .btn-1,
+.jobs .btn-2,
+.jobs .btn-3,
+.jobs .btn-4,
+.jobs .btn-5,
+.jobs .btn-6 {
+  visibility: hidden;
+}
+
+#pro {
+  width: 90px;
+  height: 30px;
+  margin-left: 1%;
+  background-color: green;
+
+  border-radius: 5%;
+}
+#pro a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+#pro:hover {
+  background-color: #0abde3;
+}
